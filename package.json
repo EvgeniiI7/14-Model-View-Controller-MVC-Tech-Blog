@@ -4,9 +4,9 @@
   "description": "tech-blog",
   "main": "server.js",
   "scripts": {
-    "test": "jest",
-    "start": "node server.js"
-  },
+      "start": "node server.js"
+    },
+
   "repository": {
     "type": "git",
     "url": "git+https://github.com/EvgeniiI7/14-Model-View-Controller-MVC-Tech-Blog.git"
