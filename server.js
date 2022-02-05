@@ -10,6 +10,10 @@ const hbs = exphbs.create({
 const session = require('express-session');
 const SequelizeStore = require('connect-session-sequelize')(session.Store);
 
+
+
+
+
 const sess = {
     secret: process.env.DB_SECRET,
     cookie: {},
