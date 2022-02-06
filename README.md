@@ -3,9 +3,9 @@
 This is a CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well. The application follows the MVC paradigm in its architectural structure, using Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication.
 
 ## User Story
-
+```
 As a developer who writes about tech, I want a CMS-style blog site so that I can publish articles, blog posts, and my thoughts and opinions.
-
+```
 ## User Experience
 
 Given a CMS-style blog site, when I visit the site for the first time I am presented with the homepage, which includes existing blog posts if any have been posted; navigation links for the homepage and the dashboard; and the option to log in.
@@ -28,12 +28,12 @@ When I am idle on the site for more than a set time I am able to view comments b
 A Tech Blog where you can create a username and make post to the community.  After logining in, you will see all the post you've made and see an option to make a new post.  On the homepage, you will see all the post from the community where you can make comments on and if needed, add new posts.  You can also edit or delete previous post incase of any errors.
 
 ## Installation
-npm i express sequelize mysql2<br>
-npm install --save sequelize<br>
-npm i bcrypt<br>
-npm i dotenv<br>
-npm i connect-session-sequelize<br>
-npm i express-handlebars<br>
-npm i express-session<br>
+* npm i express sequelize mysql2<br>
+* npm install --save sequelize<br>
+* npm i bcrypt<br>
+* npm i dotenv<br>
+* npm i connect-session-sequelize<br>
+* npm i express-handlebars<br>
+* npm i express-session<br>
 
-* [Link to deployed App](https://morning-ocean-66291.herokuapp.com)
+ [Link to deployed App](https://morning-ocean-66291.herokuapp.com)
