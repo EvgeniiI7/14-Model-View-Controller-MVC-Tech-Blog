@@ -314,8 +314,7 @@
   .col-12 {
     flex: 0 0 100%;
   }
-  /* col-md 640
-   px*/
+  /* col-md 640px */
   @media screen and (min-width: 640px) {
     .col-sm-1 {
       flex: 0 0 calc(100% * 1 / 12 - 2%);

@@ -37,8 +37,7 @@ router.get("/", withAuth, (req, res) => {
             layout: "dashboard",
             post
           });
-        } 
-        else {
+        } else {
           res.status(404).end();
         }
       })

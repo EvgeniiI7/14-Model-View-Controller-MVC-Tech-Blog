@@ -24,8 +24,7 @@ router.put("/:id", withAuth, (req, res) => {
     .then(affectedRows => {
       if (affectedRows > 0) {
         res.status(200).end();
-      } 
-      else {
+      } else {
         res.status(404).end();
       }
     })
