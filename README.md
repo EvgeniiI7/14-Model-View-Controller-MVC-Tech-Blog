@@ -26,7 +26,7 @@ When I am idle on the site for more than a set time I am able to view comments b
 
 ## Description
 A Tech Blog where you can create a username and make post to the community.  After logining in, you will see all the post you've made and see an option to make a new post.  On the homepage, you will see all the post from the community where you can make comments on and if needed, add new posts.  You can also edit or delete previous post incase of any errors.
-https://user-images.githubusercontent.com/88345845/152666747-744e376a-c83b-4c7a-abb9-07b104bfcef0.png
+![ScreenShot](https://user-images.githubusercontent.com/88345845/152666747-744e376a-c83b-4c7a-abb9-07b104bfcef0.png)
 ## Installation
 * npm i express sequelize mysql2<br>
 * npm install --save sequelize<br>
