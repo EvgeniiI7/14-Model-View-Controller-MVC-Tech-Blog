@@ -1,4 +1,4 @@
-# Tech Blog
+# Tech_Blog_Ideas
 
 This is a CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well. The application follows the MVC paradigm in its architectural structure, using Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication.
 
@@ -36,4 +36,5 @@ A Tech Blog where you can create a username and make post to the community.  Aft
 * npm i express-handlebars<br>
 * npm i express-session<br>
 
- [Link to deployed App](https://morning-ocean-66291.herokuapp.com)
+1. [Link to deployed App](https://morning-ocean-66291.herokuapp.com)
+2. [The URL of the GitHub repository](https://github.com/EvgeniiI7/14-Tech-Blog)
