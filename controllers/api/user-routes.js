@@ -1,7 +1,6 @@
 const router = require("express").Router();
 const { User } = require("../../models");
 
-// create a user name, passord
 router.post("/", (req, res) => {
   User.create({
     username: req.body.username,
@@ -22,7 +21,6 @@ router.post("/", (req, res) => {
   });
 });
 
-// login to your account 
 router.post("/login", (req, res) => {
   User.findOne({
     where: {
@@ -56,7 +54,8 @@ router.post('/logout', (req, res) => {
     req.session.destroy(() => {
       res.status(204).end();
     });
-  } else {
+  }
+  else {
     res.status(404).end();
   }
 });
