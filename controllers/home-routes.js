@@ -1,7 +1,7 @@
 const router = require("express").Router();
 const { Post, Comment, User } = require("../models/");
 
-// get all posts for homepage
+// all posts on main page
 router.get("/", (req, res) => {
   Post.findAll({
     include: [User],
@@ -16,7 +16,7 @@ router.get("/", (req, res) => {
     });
 });
 
-// get single post
+// create a single poste
 router.get("/post/:id", (req, res) => {
   Post.findByPk(req.params.id, {
     include: [

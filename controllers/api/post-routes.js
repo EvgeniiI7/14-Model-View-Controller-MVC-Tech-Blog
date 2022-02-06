@@ -2,6 +2,7 @@ const router = require("express").Router();
 const { Post, Comment, User } = require("../../models/");
 const withAuth = require("../../utils/auth");
 
+// firstly post then delite
 router.post("/", withAuth, (req, res) => {
   const body = req.body;
   console.log(req.session.userId);
@@ -23,7 +24,8 @@ router.put("/:id", withAuth, (req, res) => {
     .then(affectedRows => {
       if (affectedRows > 0) {
         res.status(200).end();
-      } else {
+      } 
+      else {
         res.status(404).end();
       }
     })
@@ -32,6 +34,7 @@ router.put("/:id", withAuth, (req, res) => {
     });
 });
 
+// delite 
 router.delete("/:id", withAuth, (req, res) => {
   Post.destroy({
     where: {
